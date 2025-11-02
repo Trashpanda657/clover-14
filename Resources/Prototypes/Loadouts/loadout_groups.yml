@@ -463,6 +463,15 @@
   - JesterHat
   - JesterAltHat
 
+- type: loadoutGroup # - Funkystation
+  id: ClownMask
+  name: loadout-group-clown-mask
+  loadouts:
+  - ClownMask
+  - ClownMaskDevil
+  - ClownMaskGamble
+  - ClownMaskJuggle
+
 - type: loadoutGroup
   id: ClownJumpsuit
   name: loadout-group-clown-jumpsuit
@@ -1117,6 +1126,8 @@
   - DetectiveArmorVest
   - DetectiveCoat
   - DetectiveCoatGrey
+  - DetectiveJamrock
+  - DetectiveAerostatic
 
 - type: loadoutGroup
   id: SecurityCadetJumpsuit

@@ -54,7 +54,7 @@
             #security (4 - 5)
             Warden: [ 1, 1 ]
             SecurityOfficer: [ 1, 2 ]
-            Detective: [ 1, 1 ]
+            Detective: [ 2, 2 ]
             SecurityCadet: [ 2, 2 ] #intern, not counted
             Lawyer: [ 1, 1 ]
             #supply (0)
