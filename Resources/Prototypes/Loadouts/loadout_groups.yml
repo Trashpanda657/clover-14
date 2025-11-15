@@ -201,6 +201,8 @@
   - AncientJumpsuit
   - RainbowJumpsuit
   - RainbowJumpskirt
+  - Gabbersuit
+  - Juggaloshirt
 
 - type: loadoutGroup
   id: PassengerFace
@@ -234,9 +236,9 @@
 - type: loadoutGroup
   id: PassengerOuterClothing
   name: loadout-group-passenger-outerclothing
-  minLimit: 0
   loadouts:
   - PassengerWintercoat
+  - Ioanscoat
 
 - type: loadoutGroup
   id: PassengerShoes
