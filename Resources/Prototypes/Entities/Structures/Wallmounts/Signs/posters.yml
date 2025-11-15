@@ -1131,6 +1131,33 @@
   - type: Sprite
     state: poster55_legit
 
+- type: entity
+  parent: PosterBase
+  id: PosterLegitHeroesOfThePast
+  name: Heroes of the past, Glen Esau and Adek Drunkenstein.
+  description: "A poster showcasing past leaders of a past relic of a station, that soon succumbed within itself. Captain Adek would always get himself into sticky situations, and got lobotomized one day and figured out how to talk in 2-syllable words to Chemists. He is still recovering from this brain damage, though he may never be cured. "
+  components:
+  - type: Sprite
+    state: poster56_legit
+
+- type: entity
+  parent: PosterBase
+  id: PosterLegitThousandYard
+  name: The Thousand Yard Stare
+  description: "A poster of the infamous painting by Thomas Lea, 'The Two-Thousand Yard stare.'"
+  components:
+  - type: Sprite
+    state: poster57_legit
+
+- type: entity
+  parent: PosterBase
+  id: PosterLegitMickIvory
+  name: CEO of Clover, Mick Ivory
+  description: "A poster of a portrait of the company's leader, Mick Ivory. he funded the station and built it from the ground up following unpleasant integral issues that caused mass-destruction to the place he once called home. Now, Clover is handled well."
+  components:
+  - type: Sprite
+    state: poster58_legit
+
 #maps
 
 - type: entity
