@@ -39,6 +39,16 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorGrey
 
+- type: loadout # Gabber
+  id: Gabbersuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitGabber
+
+- type: loadout # Juggalo
+  id: Juggaloshirt
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitJuggalo
+
 # Rainbow
 - type: loadout
   id: RainbowJumpsuit
@@ -110,6 +120,11 @@
   id: PassengerWintercoat
   equipment:
     outerClothing: ClothingOuterWinterCoat
+
+- type: loadout
+  id: Ioanscoat
+  equipment: 
+    outerClothing: ClothingOuterCoatIoan
 
 # Shoes
 - type: loadout

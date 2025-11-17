@@ -55,6 +55,11 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtSec
 
+- type: loadout # clover
+  id: SecCorporateJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformCorporateSec
+
 - type: loadout
   id: SecurityJumpsuitGrey
   equipment:

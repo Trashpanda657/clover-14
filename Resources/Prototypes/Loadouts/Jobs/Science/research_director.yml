@@ -43,6 +43,11 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtResearchDirector
 
+- type: loadout # clover
+  id: RDCorporateJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformCorporateRD
+
 # OuterClothing
 - type: loadout
   id: ResearchDirectorLabCoat

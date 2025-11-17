@@ -31,3 +31,15 @@
     - id: FlippoEngravedLighter
   - type: ExplosionResistance
     damageCoefficient: 1 
+
+- type: entity
+  parent: [ClothingOuterStorageBase]
+  id: ClothingOuterCoatIoan
+  name: ioan's coat
+  description: It's showtime, my friend!
+  components:
+  - type: Sprite
+    sprite: _Clover/Clothing/OuterClothing/Coats/ioan.rsi
+  - type: Clothing
+    sprite: _Clover/Clothing/OuterClothing/Coats/ioan.rsi
+

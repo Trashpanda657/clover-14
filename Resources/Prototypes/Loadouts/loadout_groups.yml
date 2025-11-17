@@ -201,6 +201,9 @@
   - AncientJumpsuit
   - RainbowJumpsuit
   - RainbowJumpskirt
+  - Gabbersuit
+  - Juggaloshirt
+  - ServCorporateJumpsuit
 
 - type: loadoutGroup
   id: PassengerFace
@@ -234,9 +237,9 @@
 - type: loadoutGroup
   id: PassengerOuterClothing
   name: loadout-group-passenger-outerclothing
-  minLimit: 0
   loadouts:
   - PassengerWintercoat
+  - Ioanscoat
 
 - type: loadoutGroup
   id: PassengerShoes
@@ -252,6 +255,7 @@
   loadouts:
   - BartenderHead
   - BartenderBowler
+  - RoboticistCap
 
 - type: loadoutGroup
   id: BartenderJumpsuit
@@ -260,6 +264,7 @@
   - BartenderJumpsuit
   - BartenderJumpskirt
   - BartenderJumpsuitPurple
+  - ServCorporateJumpsuit 
 
 - type: loadoutGroup
   id: BartenderOuterClothing
@@ -276,6 +281,7 @@
   minLimit: 0
   loadouts:
   - ChefHead
+  - RoboticistCap 
 
 - type: loadoutGroup
   id: ChefMask
@@ -290,6 +296,7 @@
   loadouts:
   - ChefJumpsuit
   - ChefJumpskirt
+  - ServCorporateJumpsuit 
 
 - type: loadoutGroup
   id: ChefOuterClothing
@@ -308,6 +315,7 @@
   - LibrarianJumpskirt
   - CuratorJumpsuit
   - CuratorJumpskirt
+  - ServCorporateJumpsuit 
 
 - type: loadoutGroup
   id: LawyerJumpsuit
@@ -323,6 +331,7 @@
   - LawyerJumpskirtRed
   - LawyerJumpsuitGood
   - LawyerJumpskirtGood
+  - ServCorporateJumpsuit 
 
 - type: loadoutGroup
   id: LawyerNeck
@@ -341,6 +350,7 @@
   - ChaplainPlagueHat
   - ChaplainWitchHat
   - ChaplainWitchHatAlt
+  - RoboticistCap 
 
 - type: loadoutGroup
   id: ChaplainMask
@@ -357,6 +367,7 @@
   - ChaplainJumpskirt
   - ChaplainRobesLight
   - ChaplainRobesDark
+  - ServCorporateJumpsuit 
 
 - type: loadoutGroup
   id: ChaplainOuterClothing
@@ -392,6 +403,7 @@
   minLimit: 0
   loadouts:
   - JanitorHead
+  - RoboticistCap 
 
 - type: loadoutGroup
   id: JanitorJumpsuit
@@ -399,6 +411,7 @@
   loadouts:
   - JanitorJumpsuit
   - JanitorJumpskirt
+  - ServCorporateJumpsuit 
 
 - type: loadoutGroup
   id: JanitorGloves
@@ -430,6 +443,7 @@
   loadouts:
   - BotanistHead
   - BotanistBandana
+  - RoboticistCap 
 
 - type: loadoutGroup
   id: BotanistJumpsuit
@@ -437,6 +451,7 @@
   loadouts:
   - BotanistJumpsuit
   - BotanistJumpskirt
+  - ServCorporateJumpsuit 
   - BotanistOveralls
 
 - type: loadoutGroup
@@ -462,6 +477,7 @@
   loadouts:
   - JesterHat
   - JesterAltHat
+  - RoboticistCap 
 
 - type: loadoutGroup # - Funkystation
   id: ClownMask
@@ -480,6 +496,7 @@
   - ClownSkirt
   - JesterSuit
   - JesterAltSuit
+  - ServCorporateJumpsuit
 
 - type: loadoutGroup
   id: ClownBackpack
@@ -522,6 +539,7 @@
   - MimeHead
   - MimeFrenchBeret
   - MimeCap
+  - RoboticistCap 
 
 - type: loadoutGroup
   id: MimeMask
@@ -537,6 +555,7 @@
   loadouts:
   - MimeJumpsuit
   - MimeJumpskirt
+  - ServCorporateJumpsuit 
 
 - type: loadoutGroup
   id: MimeBackpack
@@ -577,6 +596,7 @@
   loadouts:
   - MusicianJumpsuit
   - MusicianJumpskirt
+  - ServCorporateJumpsuit
 
 - type: loadoutGroup
   id: MusicianOuterClothing
@@ -628,6 +648,7 @@
   loadouts:
   - QuartermasterHead
   - QuartermasterBeret
+  - RoboticistCap 
 
 - type: loadoutGroup
   id: QuartermasterJumpsuit
@@ -638,6 +659,7 @@
   - QuartermasterTurtleneck
   - QuartermasterTurtleneckSkirt
   - QuartermasterFormalSuit
+  - CargoCorporateJumpsuit 
 
 - type: loadoutGroup
   id: QuartermasterNeck
@@ -667,6 +689,7 @@
   minLimit: 0
   loadouts:
   - CargoTechnicianHead
+  - RoboticistCap 
 
 - type: loadoutGroup
   id: CargoTechnicianJumpsuit
@@ -674,6 +697,7 @@
   loadouts:
   - CargoTechnicianJumpsuit
   - CargoTechnicianJumpskirt
+  - CargoCorporateJumpsuit
 
 - type: loadoutGroup
   id: CargoTechnicianBackpack
@@ -734,6 +758,7 @@
   loadouts:
   - ChiefEngineerHead
   - ChiefEngineerBeret
+  - RoboticistCap 
 
 - type: loadoutGroup
   id: ChiefEngineerJumpsuit
@@ -743,6 +768,7 @@
   - ChiefEngineerJumpskirt
   - ChiefEngineerTurtleneck
   - ChiefEngineerTurtleneckSkirt
+  - EngCorporateJumpsuit 
 
 - type: loadoutGroup
   id: ChiefEngineerNeck
@@ -772,6 +798,7 @@
   loadouts:
   - YellowJumpsuit
   - YellowJumpskirt
+  - EngCorporateJumpsuit 
 
 - type: loadoutGroup
   id: StationEngineerHead
@@ -782,6 +809,7 @@
   - StationEngineerHardhatOrange
   - StationEngineerHardhatRed
   - SeniorEngineerBeret
+  - RoboticistCap 
 
 - type: loadoutGroup
   id: StationEngineerJumpsuit
@@ -792,6 +820,7 @@
   - StationEngineerHazardsuit
   - SeniorEngineerJumpsuit
   - SeniorEngineerJumpskirt
+  - EngCorporateJumpsuit
 
 - type: loadoutGroup
   id: StationEngineerBackpack
@@ -830,6 +859,7 @@
   - AtmosphericTechnicianJumpsuit
   - AtmosphericTechnicianJumpskirt
   - AtmosphericTechnicianJumpsuitCasual
+  - EngCorporateJumpsuit 
 
 - type: loadoutGroup
   id: AtmosphericTechnicianOuterClothing
@@ -870,6 +900,7 @@
   minLimit: 0
   loadouts:
   - ResearchDirectorBeret
+  - RoboticistCap 
 
 - type: loadoutGroup
   id: ResearchDirectorNeck
@@ -885,6 +916,7 @@
   loadouts:
   - ResearchDirectorJumpsuit
   - ResearchDirectorJumpskirt
+  - RDCorporateJumpsuit 
 
 - type: loadoutGroup
   id: ResearchDirectorOuterClothing
@@ -927,6 +959,7 @@
   - RoboticistJumpskirt
   - SeniorResearcherJumpsuit
   - SeniorResearcherJumpskirt
+  - SciCorporateJumpsuit 
 
 - type: loadoutGroup
   id: ScientistBackpack
@@ -978,6 +1011,7 @@
   loadouts:
   - WhiteJumpsuit
   - WhiteJumpskirt
+  - SciCorporateJumpsuit 
 
 # Security
 - type: loadoutGroup
@@ -987,6 +1021,7 @@
   loadouts:
   - HeadofSecurityHead
   - HeadofSecurityBeret
+  - RoboticistCap 
 
 - type: loadoutGroup
   id: HeadofSecurityJumpsuit
@@ -998,6 +1033,7 @@
   - HeadofSecurityTurtleneckSkirt
   - HeadofSecurityFormalSuit
   - HeadofSecurityFormalSkirt
+  - SecCorporateJumpsuit 
 
 - type: loadoutGroup
   id: HeadofSecurityNeck
@@ -1021,6 +1057,7 @@
   loadouts:
   - WardenHead
   - WardenBeret
+  - RoboticistCap 
 
 - type: loadoutGroup
   id: WardenJumpsuit
@@ -1028,6 +1065,7 @@
   loadouts:
   - WardenJumpsuit
   - WardenJumpskirt
+  - SecCorporateJumpsuit 
 
 - type: loadoutGroup
   id: WardenOuterClothing
@@ -1045,6 +1083,7 @@
   - SecurityBeret
   - SecurityHat
   - TrooperHat
+  - RoboticistCap 
 
 - type: loadoutGroup
   id: SecurityJumpsuit
@@ -1057,6 +1096,7 @@
   - SeniorOfficerJumpsuit
   - SeniorOfficerJumpskirt
   - TrooperUniform
+  - SecCorporateJumpsuit 
 
 - type: loadoutGroup
   id: SecurityBackpack
@@ -1102,6 +1142,7 @@
   loadouts:
   - DetectiveFedora
   - DetectiveFedoraGrey
+  - RoboticistCap 
 
 - type: loadoutGroup
   id: DetectiveNeck
@@ -1118,6 +1159,7 @@
   - DetectiveJumpskirt
   - NoirJumpsuit
   - NoirJumpskirt
+  - SecCorporateJumpsuit 
 
 - type: loadoutGroup
   id: DetectiveOuterClothing
@@ -1135,6 +1177,7 @@
   loadouts:
   - RedJumpsuit
   - RedJumpskirt
+  - SecCorporateJumpsuit 
 
 - type: loadoutGroup
   id: SurvivalSecurity
@@ -1161,6 +1204,7 @@
   loadouts:
   - ChiefMedicalOfficerBeret
   - CMOMedicalHeadMirror
+  - RoboticistCap 
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerJumpsuit
@@ -1170,6 +1214,7 @@
   - ChiefMedicalOfficerJumpskirt
   - ChiefMedicalOfficerTurtleneckJumpsuit
   - ChiefMedicalOfficerTurtleneckJumpskirt
+  - MedCorporateJumpsuit
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerOuterClothing
@@ -1206,6 +1251,7 @@
   - GreenSurgeryCap
   - PurpleSurgeryCap
   - NurseHat
+  - RoboticistCap 
 
 - type: loadoutGroup
   id: MedicalDoctorJumpsuit
@@ -1218,6 +1264,7 @@
   - MedicalBlueScrubs
   - MedicalGreenScrubs
   - MedicalPurpleScrubs
+  - MedCorporateJumpsuit 
 
 - type: loadoutGroup
   id: MedicalDoctorOuterClothing
@@ -1271,6 +1318,7 @@
   loadouts:
   - WhiteJumpsuit
   - WhiteJumpskirt
+  - MedCorporateJumpsuit 
 
 - type: loadoutGroup
   id: ChemistJumpsuit
@@ -1278,6 +1326,7 @@
   loadouts:
   - ChemistJumpsuit
   - ChemistJumpskirt
+  - MedCorporateJumpsuit 
 
 - type: loadoutGroup
   id: ChemistOuterClothing
@@ -1302,6 +1351,7 @@
   minLimit: 0
   loadouts:
   - ParamedicHead
+  - RoboticistCap 
 
 - type: loadoutGroup
   id: ParamedicJumpsuit
@@ -1309,6 +1359,7 @@
   loadouts:
   - ParamedicJumpsuit
   - ParamedicJumpskirt
+  - MedCorporateJumpsuit 
 
 - type: loadoutGroup
   id: ParamedicOuterClothing
@@ -1354,6 +1405,7 @@
   loadouts:
   - ReporterJumpsuit
   - JournalistJumpsuit
+  - ServCorporateJumpsuit 
 
 - type: loadoutGroup
   id: PsychologistJumpsuit
@@ -1361,6 +1413,7 @@
   loadouts:
   - PsychologistJumpsuit
   - PsychologistJumpskirt
+  - MedCorporateJumpsuit 
 
 - type: loadoutGroup
   id: BoxerJumpsuit

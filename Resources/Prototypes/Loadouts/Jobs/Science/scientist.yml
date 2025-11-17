@@ -59,6 +59,11 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtRoboticist
 
+- type: loadout # clover
+  id: SciCorporateJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformCorporateSci
+
 - type: loadout
   id: SeniorResearcherJumpsuit
   effects:

@@ -91,6 +91,11 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitSeniorPhysician
 
+- type: loadout #clover
+  id: MedCorporateJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformCorporateMed
+
 - type: loadout
   id: SeniorPhysicianJumpskirt
   effects:
