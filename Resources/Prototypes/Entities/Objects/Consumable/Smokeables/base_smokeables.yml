@@ -36,10 +36,10 @@
   - type: SolutionContainerManager
     solutions:
       smokable:
-        maxVol: 20
+        maxVol: 30 #Clover
         reagents:
           - ReagentId: Nicotine
-            Quantity: 10
+            Quantity: 15 #Clover
 
 - type: entity
   parent: BaseSmokable
@@ -75,11 +75,12 @@
   - type: Vape
     damage:
       types:
-        Heat: 2
+        Heat: 3
+        Genetic: 2
   - type: SolutionContainerManager
     solutions:
       smokable:
-        maxVol: 10
+        maxVol: 30 #Clover
   - type: RefillableSolution
     solution: smokable
   - type: ExaminableSolution
