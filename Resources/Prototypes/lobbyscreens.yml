@@ -45,4 +45,15 @@
 - type: lobbyBackground
   id: ReclaimerNuke
   background: /Textures/LobbyScreens/reclaimer-nuke.webp
-  
+
+- type: lobbyBackground # Clover
+  id: ComplicitSilence
+  background: /Textures/LobbyScreens/complicitsilence.webp
+
+- type: lobbyBackground # Clover
+  id: Carps
+  background: /Textures/LobbyScreens/carps.jpg
+
+- type: lobbyBackground # Clover
+  id: Window
+  background: /Textures/LobbyScreens/window.png
