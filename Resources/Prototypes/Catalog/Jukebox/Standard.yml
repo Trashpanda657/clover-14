@@ -39,3 +39,16 @@
   name: PigeonBeans - Sunset
   path:
     path: /Audio/Jukebox/sunset.ogg
+
+    # Clover Jukebox additions # TODO, add more after i change stereo to mono to the other tracks
+- type: jukebox
+  id: laughter
+  name: 3log! - Laughterhouse (mptm)
+  path:
+    path: /Audio/Jukebox/laughterhouse(mptm).ogg
+
+- type: jukebox
+  id: breakofdawn
+  name: Bang! - Break of Dawn
+  path:
+    path: /Audio/Jukebox/breakofdawn.ogg
