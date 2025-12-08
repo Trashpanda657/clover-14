@@ -25,3 +25,51 @@
   license: "CC-BY-SA-3.0"
   copyright: "Sunset by PigeonBeans. Exported in Mono OGG."
   source: "https://soundcloud.com/pigeonbeans/sunset"
+
+# The following songs are from clover 14, used with permission from the artist.
+
+- files: ["shootingstar.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Shooting Star - BANG! (Hixxy Remix) by Bang! is used with permission from the artist."
+  source: "https://soundcloud.com/supersmithtits/dj-hixxy-shooting-star"
+
+- files: ["breakofdawn.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Break Of Dawn - Scott Brown Remix by Bang! is used with permission from the artist. Converted from Stereo to Mono"
+  source: "https://www.youtube.com/watch?v=SFjFANq1Vqo"  
+
+- files: ["square1mptm.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "square1 by 3log! is used with permission from the artist."
+  source: "https://www.youtube.com/watch?v=dU8Mo6Xrng0"
+
+- files: ["merchant.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "merchant. by 3log! is used with permission from the artist."
+  source: "https://www.youtube.com/watch?v=EptFeKzXY8Y"  
+
+- files: ["laughterhouse(mptm).ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "laughterhouse (mptm) by 3log! is used with permission from the artist, changed from STEREO to MONO OGG with https://onlineaudioconverter.com/"
+  source: "https://www.youtube.com/watch?v=D_iH8CJkfTs"
+
+- files: ["MeatyLance.ogg"] 
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Meaty Lance by SUMPP"
+
+- files: ["megahit.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Megahit - Chrome Type Fire"
+  source: "https://www.youtube.com/watch?v=1TrglSQ5T4A"
+
+- files: ["nwo.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Are you ready for ze new world order? by Michaelanthony"
+
+- files: ["lobcorp.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Hokma Suppression by Dr. ReB from Lobotomy Corporation"
+
+- files: ["flatliners.ogg"]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Flatliners by Simon Harris and Yell-O Phase"
