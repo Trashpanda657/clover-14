@@ -15,6 +15,7 @@ If you want to host or create content for Clover 14, this is the repo you need. 
 <div class="header" align="center">  
 
 [Discord](https://discord.gg/XkdERHGvsB) 
+[Wiki](https://cy14.miraheze.org/)
 </div>
 
 ## Contributing
