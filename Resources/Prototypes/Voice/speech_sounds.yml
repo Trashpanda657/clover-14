@@ -195,3 +195,13 @@
     path: /Audio/Animals/wawa_question.ogg
   exclaimSound:
     path: /Audio/Animals/wawa_exclaim.ogg
+
+
+- type: speechSounds
+  id: Gira
+  saySound: 
+    path: /Audio/_Clover/Comedy/gira_say.ogg
+  askSound:
+    path: /Audio/_Clover/Comedy/gira_ask.ogg
+  exclaimSound:
+    path: /Audio/_Clover/Comedy/gira_exclaim.ogg
