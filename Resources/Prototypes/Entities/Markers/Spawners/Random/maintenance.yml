@@ -29,6 +29,7 @@
       - id: ClothingUnderSocksBee
       - id: ClothingUnderSocksCoder
       - id: ClothingHeadHatSquid
+      - id: ClothingHeadHatCowboyGira # Clover
       # Animal Masks
       - !type:GroupSelector
         children:
