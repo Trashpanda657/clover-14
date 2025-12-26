@@ -11,7 +11,8 @@ changelog-version-tag = { $fork }/{ $version }
 changelog-button = Changelog
 changelog-button-new-entries = Changelog (new!)
 
-changelog-tab-title-Changelog = Changelog
+changelog-tab-title-Changelog = Wizden Changelog
+changelog-tab-title-ChangelogClover = Clover Changelog
 changelog-tab-title-Admin = Admin
 changelog-tab-title-Maps = Maps
 
