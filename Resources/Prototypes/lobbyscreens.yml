@@ -57,3 +57,7 @@
 - type: lobbyBackground # Clover
   id: Window
   background: /Textures/LobbyScreens/window.png
+
+- type: lobbyBackground # Clover
+  id: Maints
+  background: /Textures/LobbyScreens/maints.jpg

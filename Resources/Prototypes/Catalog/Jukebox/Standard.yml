@@ -113,3 +113,9 @@
   name: Jonathan Coulton - The Future Soon
   path:
     path: /Audio/Lobby/the_future_soon.ogg
+
+- type: jukebox
+  id: traitorous
+  name: mrjajkes - Traitorous Intent
+  path:
+    path: /Audio/Jukebox/traitorous.ogg  
