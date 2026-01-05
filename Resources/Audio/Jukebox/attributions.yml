@@ -83,3 +83,23 @@
   license: "CC-BY-NC-SA-3.0"
   copyright: "The Future Soon by Jonathan Coulton"
   source: "https://www.youtube.com/watch?v=l5PEz3kGbp4"
+
+- files: ["traitorous.ogg"]
+  license: "CC-BY-3.0"
+  copyright: "Traitorous Intent by mrjajkes"
+  source: "https://www.youtube.com/watch?v=3CZNghXIrvo"
+
+- files: ["1812.ogg"]
+  license: "Public Domain"
+  copyright: "1812 Overture by Melodica Men"
+  source: "https://www.youtube.com/watch?v=S3L_jYY2KC8"
+
+- files: [melcom.ogg]
+  license: "CC-BY-NC-SA-3.0"
+  copyright: "Cyberpunk by Melcom"
+  source: "https://melcom.bandcamp.com/track/cyberpunk"
+
+- files: [ADR.ogg]
+  license: "CC-BY-3.0"
+  copyright: "A different reality by Andreas Viklund (Lagoona Mix)"
+  source: "https://www.youtube.com/watch?v=s3Eq0JQ3RU8"

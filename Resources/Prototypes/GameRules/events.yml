@@ -16,7 +16,6 @@
     - id: MassHallucinations
     - id: MimicVendorRule
     - id: MouseMigration
-    - id: PowerGridCheck
     - id: RandomSentience
     - id: SlimesSpawn
     - id: SolarFlare
@@ -24,6 +23,7 @@
     - id: SpiderClownSpawn
     - id: SpiderSpawn
     - id: VentClog
+    - id: GiraSpawn # Clover
 
 - type: entityTable
   id: BasicAntagEventsTable
@@ -172,6 +172,18 @@
     weight: 5
     duration: 1
   - type: ClericalErrorRule
+
+- type: entity # CLOVER
+  id: GiraSpawn
+  parent: BaseGameRule
+  components:
+  - type: StationEvent
+    startAnnouncement:
+    minimumPlayers: 5
+    weight: 4
+    duration: 1
+  - type: RandomSpawnRule
+    prototype: MobGira
 
 - type: entity
   parent: BaseGameRule
@@ -388,22 +400,6 @@
     weight: 7
     duration: 240
   - type: KudzuGrowthRule
-
-- type: entity
-  id: PowerGridCheck
-  parent: BaseStationEventShortDelay
-  components:
-  - type: StationEvent
-    weight: 5
-    startAnnouncement: station-event-power-grid-check-start-announcement
-    endAnnouncement: station-event-power-grid-check-end-announcement
-    startAudio:
-      path: /Audio/Announcements/power_off.ogg
-      params:
-        volume: -4
-    duration: 60
-    maxDuration: 120
-  - type: PowerGridCheckRule
 
 - type: entity
   parent: BaseGameRule

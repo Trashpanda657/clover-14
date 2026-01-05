@@ -16,3 +16,15 @@ Entries:
   id: 2
   time: '2025-12-27T02:30:00+00:00'
   url: https://github.com/minkalicious/clover-14/pull/37
+
+- author: Minkalicious
+  changes:
+  - message: Mass additions of new content
+    type: Add
+  - message: Meteors, Powernet
+    type: Remove
+  - message: Sprites, prototypes and more.
+    type: Fix
+  id: 3
+  time: '2026-01-05T02:30:00+00:00'
+  url: https://github.com/minkalicious/clover-14/pull/39

@@ -113,3 +113,27 @@
   name: Jonathan Coulton - The Future Soon
   path:
     path: /Audio/Lobby/the_future_soon.ogg
+
+- type: jukebox
+  id: traitorous
+  name: mrjajkes - Traitorous Intent
+  path:
+    path: /Audio/Jukebox/traitorous.ogg  
+
+- type: jukebox
+  id: "1812"
+  name: Melodica Men - 1812 Overture
+  path:
+    path: /Audio/Jukebox/1812.ogg  
+
+- type: jukebox
+  id: melcom
+  name: Melcom - Cyberpunk
+  path:
+    path: /Audio/Jukebox/melcom.ogg
+
+- type: jukebox
+  id: adr
+  name: Andreas Viklund - A different reality (Lagoona Mix)
+  path:
+    path: /Audio/Jukebox/ADR.ogg
