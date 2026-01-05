@@ -18,11 +18,13 @@
     - type: HTN
       rootTask:
         task: IdleCompound
-#    - type: InteractionPopup (Disabled Temporarily)
-#      interactSuccessString: petting-success-medibot
-#      interactFailureString: petting-failure-medibot
-#      interactSuccessSound:
-#        path: /Audio/Ambience/Objects/periodic_beep.ogg
+    - type: InteractionPopup
+      interactSuccessString: petting-success-gira
+      interactFailureString: petting-failure-gira
+      interactSuccessSound:
+        path: /Audio/_Clover/Comedy/gira_pet.ogg
+      interactFailureSound:
+        path: /Audio/_Clover/Comedy/gira_scream.ogg
     - type: Vocalizer
     - type: DatasetVocalizer
       dataset: GiraSay
@@ -37,16 +39,27 @@
         300: Critical
         350: Dead 
     - type: Damageable
-    #- type: DamageModifierSet
-    #  coefficients:
-    #    Blunt: 0.4
-    #    Slash: 0.4
-    #    Piercing: 0.4
     - type: GhostRole
       name: Gira
       description: And I am the sun, I rise above the world, And when the light goes out, I kill another child.
     - type: GhostTakeoverAvailable
-
+    - type: GhostHearing
+    - type: Hands
+      hands:
+        hand_right:
+          location: Right
+        hand_left:
+          location: Left
+      sortedHands:
+      - hand_right
+      - hand_left
+    - type: ComplexInteraction
+    - type: Puller
+      needsHands: false
+    - type: CombatMode
+    - type: Physics
+      ignorePaused: true
+      bodyType: Kinematic
 
 
 
