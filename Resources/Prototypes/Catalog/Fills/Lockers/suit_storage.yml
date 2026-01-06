@@ -335,3 +335,25 @@
     # TODO: Gone until reworked to have no space protection
     #- id: ClothingOuterHardsuitWizard
     #- id: JetpackVoidFilled
+
+
+# UESC - Clover
+- type: entity
+  id: SuitStorageUESC
+  parent: SuitStorageBase
+  suffix: UESC
+  components:
+  - type: EntityTableContainerFill
+    containers:
+     entity_storage: !type:NestedSelector
+       tableId: FillSuitStorageUESC
+
+-type: entityTable
+  id: FillSuitStorageUESC
+  table: !type:AllSelector
+    children:
+    - id: JetpackVoidFilled
+    - id: ClothingOuterHardsuitUESC
+    - id: DoubleEmergencyOxygenTankFilled
+    - id: DoubleEmergencyNitrogenTankFilled
+    - id: ClothingMaskBreath

@@ -55,7 +55,7 @@
       - WeaponCrusherDagger
       - WeaponCrusherGlaive
       - MiningDrill
-      - ClothingOuterHardsuitUESC
+      - SuitStorageUESC
       offset: 0.0
 
 - type: entity

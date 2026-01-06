@@ -44,7 +44,7 @@
     - id: ClothingBeltMilitaryWebbing
       prob: 0.2
 
-#Garunteed chameleon kit spawn, for the syndicate dropship
+#Guaranteed chameleon kit spawn, for the syndicate dropship
 - type: entity
   id: LockerSyndicateShipGearBasicChameleonKit
   parent: LockerSyndicateShipGearBasic
@@ -70,3 +70,24 @@
       prob: 0.2
     - id: ClothingBeltMilitaryWebbing
       prob: 0.2
+
+# Clover UESC
+- type: entity
+  id: LockerUESC
+  name: closet
+  suffix: UESC hardsuit locker
+  parent: LockerSyndicate
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: FilLockerUESC
+
+- type: entityTable
+  id: FilLockerUESC
+  table: !type:AllSelector
+    children:
+    - id: DoubleEmergencyOxygenTankFilled
+    - id: DoubleEmergencyNitrogenTankFilled
+    - id: ClothingOuterHardsuitUESC
+    - id: JetpackVoidFilled
