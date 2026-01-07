@@ -16,6 +16,7 @@ If you want to host or create content for Clover 14, this is the repo you need. 
 
 [Discord](https://discord.gg/XkdERHGvsB) 
 [Wiki](https://cy14.miraheze.org/)
+[Build](https://cdn.starlight.network/fork/clover)
 </div>
 
 ## Contributing
