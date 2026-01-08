@@ -1,13 +1,13 @@
 Entries:
-- author: Minkalicious
+- author: Ivomink
   changes:
   - message: Added proper changelog.
     type: Add
   id: 1
   time: '2025-12-21T02:30:00+00:00'
-  url: https://github.com/minkalicious/clover-14/pull/34
+  url: https://github.com/ivomink/clover-14/pull/34
 
-- author: Minkalicious
+- author: Ivomink
   changes:
   - message: Tweaked playtime requirements
     type: Tweak
@@ -15,9 +15,9 @@ Entries:
     type: Fix
   id: 2
   time: '2025-12-27T02:30:00+00:00'
-  url: https://github.com/minkalicious/clover-14/pull/37
+  url: https://github.com/ivomink/clover-14/pull/37
 
-- author: Minkalicious
+- author: Ivomink
   changes:
   - message: Mass additions of new content
     type: Add
@@ -27,4 +27,24 @@ Entries:
     type: Fix
   id: 3
   time: '2026-01-05T02:30:00+00:00'
-  url: https://github.com/minkalicious/clover-14/pull/39
+  url: https://github.com/ivomink/clover-14/pull/39
+
+- author: SunnyVerr
+  changes:
+  - message: Updated Saltern
+    type: Tweak
+  id: 4
+  time: '2026-01-09T02:30:00+00:00'
+  url: https://github.com/ivomink/clover-14/pull/45
+
+- author: Ivomink
+  changes:
+  - message: added Experimental RCD to CE
+    type: Add
+  - message: Improved interaction options with gira, now he can pass walls and hold items. he can also be petted.
+    type: Tweak 
+  - message: Salvage QoL
+    type: Fix 
+  id: 5
+  time: '2026-01-09T02:30:00+00:00'
+  url: https://github.com/ivomink/clover-14/pull/40
