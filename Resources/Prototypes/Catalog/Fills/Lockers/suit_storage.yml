@@ -348,7 +348,7 @@
      entity_storage: !type:NestedSelector
        tableId: FillSuitStorageUESC
 
--type: entityTable
+- type: entityTable
   id: FillSuitStorageUESC
   table: !type:AllSelector
     children:
