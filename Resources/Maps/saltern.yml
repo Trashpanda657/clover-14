@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.1.0
   forkId: ""
   forkVersion: ""
-  time: 01/09/2026 00:38:29
-  entityCount: 11622
+  time: 01/09/2026 03:15:20
+  entityCount: 11615
 maps:
 - 658
 grids:
@@ -795,7 +795,7 @@ entities:
             2: 57344
           8,5:
             0: 272
-            4: 17472
+            3: 17472
           8,6:
             2: 65345
           8,7:
@@ -836,10 +836,10 @@ entities:
             0: 53759
           11,2:
             0: 4319
-            3: 49152
+            4: 49152
           11,3:
             0: 61457
-            3: 204
+            4: 204
           11,-1:
             0: 30583
           11,4:
@@ -851,9 +851,9 @@ entities:
             0: 28791
           12,2:
             0: 119
-            3: 28672
+            4: 28672
           12,3:
-            3: 119
+            4: 119
             0: 61440
           12,-1:
             0: 29311
@@ -1270,16 +1270,16 @@ entities:
             2: 65534
           9,5:
             5: 4368
-            3: 17472
+            4: 17472
           9,6:
             2: 7936
           10,5:
-            3: 4368
+            4: 4368
             6: 17472
           10,6:
             2: 3840
           11,5:
-            3: 21840
+            4: 21840
           11,6:
             2: 3856
           12,5:
@@ -1405,11 +1405,11 @@ entities:
           moles: {}
         - volume: 2500
           temperature: 293.15
-          moles: {}
-        - volume: 2500
-          temperature: 293.15
           moles:
             Nitrogen: 6666.982
+        - volume: 2500
+          temperature: 293.15
+          moles: {}
         - volume: 2500
           temperature: 293.15
           moles:
@@ -2293,6 +2293,30 @@ entities:
             772: -19,10
             775: -19,8
         - node:
+            color: '#FFFFFFFF'
+            id: Flowersbr1
+          decals:
+            986: -4,-37
+            987: -2,-37
+        - node:
+            color: '#FFFFFFFF'
+            id: Flowerspv1
+          decals:
+            978: -5,-37
+            988: -5,-37
+        - node:
+            color: '#FFFFFFFF'
+            id: Flowerspv2
+          decals:
+            980: -1,-37
+            990: -3,-37
+        - node:
+            color: '#FFFFFFFF'
+            id: Flowerspv3
+          decals:
+            979: -3,-37
+            989: -1,-37
+        - node:
             color: '#52B4E996'
             id: FullTileOverlayGreyscale
           decals:
@@ -2329,6 +2353,22 @@ entities:
             232: 36,4
             233: 36,5
             318: 30,3
+        - node:
+            color: '#FFFFFFFF'
+            id: Grassb4
+          decals:
+            975: -43,-6
+            976: -42,-6
+            977: -41,-6
+        - node:
+            color: '#FFFFFFFF'
+            id: Grassd1
+          decals:
+            981: -4,-37
+            982: -2,-37
+            983: -5,-37
+            984: -3,-37
+            985: -1,-37
         - node:
             color: '#52B4E996'
             id: HalfTileOverlayGreyscale
@@ -2917,16 +2957,6 @@ entities:
             393: -26,24
         - node:
             color: '#FFFFFFFF'
-            id: WarnCornerNE
-          decals:
-            822: -41,-6
-        - node:
-            color: '#FFFFFFFF'
-            id: WarnCornerNW
-          decals:
-            823: -43,-6
-        - node:
-            color: '#FFFFFFFF'
             id: WarnCornerSE
           decals:
             824: -41,-4
@@ -3015,7 +3045,6 @@ entities:
             518: 21,24
             519: 22,24
             521: 20,24
-            827: -42,-6
             835: 38,12
         - node:
             angle: -1.5707963267948966 rad
@@ -4138,7 +4167,7 @@ entities:
       pos: -15.5,-36.5
       parent: 31
     - type: Door
-      secondsUntilStateChange: -10642.467
+      secondsUntilStateChange: -11390.029
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -4282,7 +4311,7 @@ entities:
       pos: -31.5,-26.5
       parent: 31
     - type: Door
-      secondsUntilStateChange: -11644.6
+      secondsUntilStateChange: -12392.162
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -4785,7 +4814,7 @@ entities:
       pos: -39.5,-4.5
       parent: 31
     - type: Door
-      secondsUntilStateChange: -4096.9067
+      secondsUntilStateChange: -4844.4688
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -29082,28 +29111,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 10.5,-40.5
       parent: 31
-- proto: DecalSpawnerBushesAC
-  entities:
-  - uid: 9719
-    components:
-    - type: Transform
-      pos: -3.5,-36.5
-      parent: 31
-  - uid: 11494
-    components:
-    - type: Transform
-      pos: -1.5,-36.5
-      parent: 31
-  - uid: 11535
-    components:
-    - type: Transform
-      pos: -42.5,-5.5
-      parent: 31
-  - uid: 11537
-    components:
-    - type: Transform
-      pos: -40.5,-5.5
-      parent: 31
 - proto: DecalSpawnerDirtNear
   entities:
   - uid: 11582
@@ -29115,32 +29122,6 @@ entities:
     components:
     - type: Transform
       pos: 18.5,-22.5
-      parent: 31
-- proto: DecalSpawnerFlowers
-  entities:
-  - uid: 9399
-    components:
-    - type: Transform
-      pos: -4.5,-36.5
-      parent: 31
-  - uid: 9403
-    components:
-    - type: Transform
-      pos: -0.5,-36.5
-      parent: 31
-- proto: DecalSpawnerGrassAB
-  entities:
-  - uid: 11536
-    components:
-    - type: Transform
-      pos: -41.5,-5.5
-      parent: 31
-- proto: DecalSpawnerGrassC
-  entities:
-  - uid: 11509
-    components:
-    - type: Transform
-      pos: -2.5,-36.5
       parent: 31
 - proto: DefaultStationBeacon
   entities:
@@ -48748,7 +48729,7 @@ entities:
       pos: 12.5,-42.5
       parent: 31
     - type: Door
-      secondsUntilStateChange: -9316.535
+      secondsUntilStateChange: -10064.098
       state: Opening
   - uid: 9696
     components:
@@ -48757,7 +48738,7 @@ entities:
       pos: 12.5,-41.5
       parent: 31
     - type: Door
-      secondsUntilStateChange: -9316.835
+      secondsUntilStateChange: -10064.397
       state: Opening
   - uid: 9697
     components:
@@ -48766,7 +48747,7 @@ entities:
       pos: 12.5,-40.5
       parent: 31
     - type: Door
-      secondsUntilStateChange: -9317.235
+      secondsUntilStateChange: -10064.798
       state: Opening
 - proto: HospitalCurtainsOpen
   entities:
@@ -51133,6 +51114,9 @@ entities:
   entities:
   - uid: 7433
     components:
+    - type: MetaData
+      desc: A very adorable stuffed toy that resembles a brave atmosian! Unfortunately, he won't fix your problems, any of them.
+      name: Z. plushie
     - type: Transform
       pos: 44.47201,25.696434
       parent: 31
@@ -51203,6 +51187,14 @@ entities:
       parent: 31
 - proto: PlushieMoth
   entities:
+  - uid: 9719
+    components:
+    - type: MetaData
+      desc: Cute and fluffy moth plushie. Seems to enjoy making millions of spesos.
+      name: R. plushie
+    - type: Transform
+      pos: 29.401327,9.620221
+      parent: 31
   - uid: 11505
     components:
     - type: Transform
@@ -51911,6 +51903,16 @@ entities:
     - type: ContainerContainer
       containers:
         stash: !type:ContainerSlot {}
+  - uid: 9399
+    components:
+    - type: Transform
+      pos: -40.5,-5.5
+      parent: 31
+  - uid: 9403
+    components:
+    - type: Transform
+      pos: -41.5,-5.5
+      parent: 31
   - uid: 9915
     components:
     - type: Transform
@@ -51930,16 +51932,6 @@ entities:
     components:
     - type: Transform
       pos: 19.5,-13.5
-      parent: 31
-  - uid: 11533
-    components:
-    - type: Transform
-      pos: -41.5,-5.5
-      parent: 31
-  - uid: 11534
-    components:
-    - type: Transform
-      pos: -40.5,-5.5
       parent: 31
   - uid: 11590
     components:
