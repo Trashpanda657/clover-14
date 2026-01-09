@@ -32,7 +32,7 @@
     - NanoTrasen
   - type: Loadout
     prototypes: [ ERTLeaderGear ]
-    roleLoadout: [ RoleSurvivalMilitaryDouble ]
+    roleLoadout: [ RoleSurvivalSecurity ]
   - type: RandomMetadata
     nameSegments:
     - NamesMilitaryLast
