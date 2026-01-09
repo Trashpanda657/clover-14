@@ -48,3 +48,11 @@ Entries:
   id: 5
   time: '2026-01-09T02:30:00+00:00'
   url: https://github.com/ivomink/clover-14/pull/40
+
+- author: Ivomink
+  changes:
+  - message: Added Lone ERT shuttle event
+    type: Add
+  id: 6
+  time: '2026-01-09T04:30:00+00:00'
+  url: https://github.com/ivomink/clover-14/pull/47
